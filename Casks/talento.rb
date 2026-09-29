@@ -1,9 +1,9 @@
 cask "talento" do
-  version "1.0.5"
+  version "1.0.6"
   arch arm: "arm64", intel: "amd64"
-  sha256 arm: "39926b6ad8d46d545504567f160c55db78742dfe91f8702a3315c263134fd6aa", intel: "297d7d43fbc2eb7bb9de290cc418c2ebcf4bac6fa6d5ddecb4a7d9b2d05d57ae"
+  sha256 arm: "1599793c59c3920d209ee0a66e8462d38e069d6a5b568fed0d15fc0d825826ac", intel: "a1dc657d8db6e81f3d1dfb8d8ae75b85a9e4de76cffa6d5198d2bf2fc22bc86b"
 
-  url "https://github.com/talentohq/talento-cli/releases/download/v1.0.5/" + "talento_#{version}_darwin_#{arch}.tar.gz"
+  url "https://github.com/talentohq/talento-cli/releases/download/v1.0.6/" + "talento_#{version}_darwin_#{arch}.tar.gz"
   name "Talento CLI"
   desc "Native command-line client for TalentoHQ"
   homepage "https://talentohq.com"
